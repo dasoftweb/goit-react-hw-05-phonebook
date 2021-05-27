@@ -1,8 +1,7 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
-import contactActions from '../redux/contacts/contacts-actions';
+import contactActions from '../../redux/contacts/contacts-actions';
 import PropTypes from 'prop-types';
-import capitalizeFirstLetter from "../redux/contacts/helpers"
 
 class ContactForm extends Component {
   state = {

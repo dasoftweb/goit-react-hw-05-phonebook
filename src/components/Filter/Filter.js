@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import contactActions from '../redux/contacts/contacts-actions';
+import contactActions from '../../redux/contacts/contacts-actions';
 
 const Filter = ({ value, onChange }) => (
   <label className="label">
